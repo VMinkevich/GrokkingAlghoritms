@@ -1,5 +1,5 @@
 # GrokkingAlghoritms
 Repository created for homeworks and projects from the "Grokaem Algorithms"
 
-## Требования
+## Requirements
 - Python 3.12+
