@@ -1,4 +1,4 @@
-def binSerach(arr: list, target: int) -> int:
+def binSearch(arr: list, target: int) -> int:
     """Binary search algorithm
     Args:
     arr: list of integers
@@ -16,10 +16,3 @@ def binSerach(arr: list, target: int) -> int:
         else:
             right = mid - 1
     return -1
-
-if __name__ == '__main__':
-    arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-    target = 5
-    print(binSerach(arr, target))
-    target = 20
-    print(binSerach(arr, target))
