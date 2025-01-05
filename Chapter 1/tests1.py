@@ -1,5 +1,5 @@
 import unittest
-import BinSe as bs
+import BinSearch as bs
 
 class TestBinarySearch(unittest.TestCase):
     def test_found(self):

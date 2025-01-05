@@ -1,5 +1,5 @@
 import pytest
-import BinSe as bs
+import BinSearch as bs
 
 # 4 test cases
 @pytest.mark.parametrize("arr, target, expected", [
