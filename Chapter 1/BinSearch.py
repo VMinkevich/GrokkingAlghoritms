@@ -3,6 +3,8 @@ def binSearch(arr: list, target: int) -> int:
     Args:
     arr: list of integers
     target: integer to search for
+    Memory Complexity: O(1)
+    Time Complexity: O(log(n))
     """
 
     left = 0
