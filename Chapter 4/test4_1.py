@@ -1,5 +1,5 @@
 import pytest
-import quick_sort as qs
+import QuickSort as qs
 
 @pytest.mark.parametrize("arr, sorted_arr", [
     ([2,3,4,6,7,1], [1,2,3,4,6,7]),

@@ -12,11 +12,11 @@ def QuickSort(arr: list) -> list:
         return arr
     
     # Select pivot element
-    pivot = arr[-1]
+    pivot = arr[0]
     
-    # Разделяем массив на две части: меньшие и большие элементы относительно опорного
-    left = [x for x in arr[:-1] if x < pivot]
-    right = [x for x in arr[:-1] if x >= pivot]
+    # Seperate array on two parts: smaller and larger elements relative to the supporting
+    left = [x for x in arr[1:] if x < pivot]
+    right = [x for x in arr[1:] if x >= pivot]
     
-    # Рекурсивно сортируем подмассивы и соединяем результат
+    # Recursively sort the subarrays and merge the result
     return QuickSort(left) + [pivot] + QuickSort(right)
