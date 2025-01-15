@@ -1,12 +1,11 @@
 def binSearch(arr: list, target: int) -> int:
-    """Binary search algorithm
-    Args:
-    arr: list of integers
-    target: integer to search for
-    Memory Complexity: O(1)
-    Time Complexity: O(log(n))
-    """
-
+    
+    '''Binary search algorithm
+    Time complexity: O(logn)
+    Space complexity: O(1)
+    input: list, target
+    output: int'''
+    
     left = 0
     right = len(arr) - 1
     while left <= right:

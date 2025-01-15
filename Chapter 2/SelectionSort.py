@@ -1,5 +1,12 @@
 def smalles_index(arr: list) -> int:
     
+    '''Selection sort algorithm
+    Time complexity: O(n^2)
+    Space complexity: O(n)
+    input: list
+    output: list
+    '''
+
     small_val = arr[0]
     small_ind = 0
     
