@@ -1,6 +1,6 @@
-import own_graph as graph
+import UndirectedGraph as graph
 
-g = graph.OwnGraph()
+g = graph.UndirectedGraph()
 g.addNode('A')
 g.addNode('B')
 g.addNode('C')
