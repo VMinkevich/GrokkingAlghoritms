@@ -1,5 +1,7 @@
 from collections import deque
-import UndirectedGraph as UG
+# from Deque import Deque
+
+# Want to use own Deque!!!!!!!
 
 graph = {}
 graph["вы"] = ["Алиса", "Боб", "Клэр"]
@@ -13,7 +15,7 @@ graph["Джонни"] = []
 
 
 def person_is_seller(name):
-    return name[-1] == 'м'
+    return (len(name) == 5) & (name[1] == 'н')
 
 def BFS(graph):
     search_deque = deque()
@@ -30,3 +32,4 @@ def BFS(graph):
     return -1
 
 print(BFS(graph))
+print(graph)
